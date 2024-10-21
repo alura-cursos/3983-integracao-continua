@@ -30,5 +30,6 @@ jobs:
         version: v1.59
         args: controllers/ database/ models/ routes/
 
+
     - name: Test
       run: go test -v main_test.go
