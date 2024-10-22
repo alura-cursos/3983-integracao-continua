@@ -2,9 +2,9 @@ services:
   postgres:
     image: "postgres"
     environment:
-      - POSTGRES_USER=myuser
-      - POSTGRES_PASSWORD=mypassword
-      - POSTGRES_DB=mydatabase
+      - POSTGRES_USER=root
+      - POSTGRES_PASSWORD=root
+      - POSTGRES_DB=root
     ports:
       - 5432:5432
     volumes:
