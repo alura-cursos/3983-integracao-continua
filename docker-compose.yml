@@ -24,7 +24,7 @@ services:
     depends_on:
       - postgres
     environment:
-      - DB_HOST=root
+      - DB_HOST=postgres
       - DB_USER=root
       - DB_PASSWORD=root
       - DB_NAME=root
